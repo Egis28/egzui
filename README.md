@@ -24,3 +24,10 @@
 1. prisijungimas: vardas@gmail.com
 2. slaptazodis: password@gmail.com
 
+
+### .env
+
+1. MONGO = mongodb+srv://egissabas100:IXpDXYFo1x9yhl4s@cluster0.xrw8gpc.mongodb.net/project_owner
+2. PORT = 8080
+3. NODE_ENV = development
+4. JWT_SECRET = neprisikiskiaposteliaudamasis
