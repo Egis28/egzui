@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
 
-const AdsCard = () => {
+const AdsCard = ({ ad }) => {
   return (
-    <div>kaip atrodys vieno skelbimo kortele</div>
-  )
-}
+    <div className="ad-card">
+      <h3>{ad.title}</h3>
+      <p>Category: {ad.category}</p>
+      <p>Description: {ad.description}</p>
+    </div>
+  );
+};
 
-export default AdsCard
+export default AdsCard;
